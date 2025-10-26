@@ -86,6 +86,9 @@ def add_events_from_csv(calendar_id, filename):
             print(f"  Description: {evt['description']}")
         print("---------------------------------------------------")
 
-if __name__ == '__main__':
+def run():
     calendar_id = get_or_create_calendar("Class Schedule")
     add_events_from_csv(calendar_id, 'schedule.csv')
+
+if __name__ == '__main__':
+    run()
