@@ -1,0 +1,56 @@
+{
+    "professor_info": {
+        "firstName": "George",
+        "lastName": "Schaeffer",
+        "department": "Mathematics",
+        "school": "Santa Clara University",
+        "avgRating": 4.9,
+        "avgDifficulty": 2.7,
+        "numRatings": 7,
+        "wouldTakeAgainPercent": 100
+    },
+    "comments": [
+        {
+            "comment": "He is very friendly and outgoing. Has a lot of office hours, and is always eager to help clear up concepts and other gaps in understanding. Lectures are good but can get dull at times. If you follow the recommended study guide, getting good scores on exams will not be difficult. Grading policy is very generous and can easily bring up grade anytime",
+            "tags": "Clear grading criteria--Caring--Accessible outside class",
+            "class": "MATH51",
+            "date": "2025-02-27 01:46:50 +0000 UTC"
+        },
+        {
+            "comment": "a professor who truly cares about all his students, his lectures are really entertaining and engaging making discrete a fairly simple topic. do all the homework and readings and you won't ever have to worry about failing. 3 midterms and an optional final that you can use to boost your midterm grades and it wont go against you. take him if you can!",
+            "tags": "Hilarious--Caring--Respected",
+            "class": "MATH51",
+            "date": "2025-02-20 05:14:45 +0000 UTC"
+        },
+        {
+            "comment": "George was a great dude and had really good lectures. Exams were tough at times, but only because discrete math can occasionally be non-intuitive, sometimes you either know it or you don't. Do ALL the homework/readings, and practice the fundamentals to gain an intuition for the material. If you put in the effort you will be fine, highly recommend!",
+            "tags": "Amazing lectures --Caring--Respected",
+            "class": "MATH51",
+            "date": "2025-01-05 09:12:40 +0000 UTC"
+        },
+        {
+            "comment": "He is the most caring teacher I've had at this school. He is very accessible out of class and is very helpful and kind. He truly cares about his students and their education. The homework is not very long and there are short readings in ZyBook to do before class starts. His tests are very very fair. Please take him if you want a good math quarter. ",
+            "tags": "",
+            "class": "MATH51",
+            "date": "2024-12-03 21:16:07 +0000 UTC"
+        },
+        {
+            "comment": "I've had Dr. S for all calc classes and he's great. Definitely go to office hours they're so helpful, he is really good at explaining math concepts and will make sure you understand everything as long as you ask for help. His homework isn't too difficult and he prepares you for his tests with study guides and practice problems. I would recommend!",
+            "tags": "Gives good feedback--Caring--Accessible outside class",
+            "class": "MATH9",
+            "date": "2024-08-27 02:46:08 +0000 UTC"
+        },
+        {
+            "comment": "One of the better profs in the math department. Tests aren't too difficult and homework is clear and prepares you well.",
+            "tags": "Clear grading criteria--Caring",
+            "class": "MATH9",
+            "date": "2024-05-17 18:03:44 +0000 UTC"
+        },
+        {
+            "comment": "awesome guy! very friendly and lets you have retakes/cheat sheets on tests. Final is just a retake of all topics you didn't master, so in theory could be like two questions long.",
+            "tags": "Amazing lectures --Lots of homework--Accessible outside class",
+            "class": "MATH9",
+            "date": "2024-02-07 21:15:09 +0000 UTC"
+        }
+    ]
+}

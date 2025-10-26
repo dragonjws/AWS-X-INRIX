@@ -1,0 +1,236 @@
+{
+    "professor_info": {
+        "firstName": "Byron",
+        "lastName": "Walden",
+        "department": "Mathematics",
+        "school": "Santa Clara University",
+        "avgRating": 2.7,
+        "avgDifficulty": 3.5,
+        "numRatings": 37,
+        "wouldTakeAgainPercent": 37.5
+    },
+    "comments": [
+        {
+            "comment": "horrible at making crosswords",
+            "tags": "Tough grader--So many papers",
+            "class": "MATH12",
+            "date": "2025-10-25 06:17:34 +0000 UTC"
+        },
+        {
+            "comment": "Came in needing to  learn discrete math, came out needing to learn discrete math. ",
+            "tags": "Clear grading criteria",
+            "class": "COEN19",
+            "date": "2024-06-20 02:27:20 +0000 UTC"
+        },
+        {
+            "comment": "He goes fast in his lectures and spends a long time on topics that are common sense. He has said to send him emails for help but he has not responded to a single email this entire quarter. I confronted him about it in person, he said \"Sorry about that\" then continued to not respond to my emails. I felt like I was teaching myself this entire quarter",
+            "tags": "",
+            "class": "MATH36",
+            "date": "2024-06-05 16:57:02 +0000 UTC"
+        },
+        {
+            "comment": "Amazing class, amazing teacher.",
+            "tags": "Amazing lectures --Hilarious--Test heavy",
+            "class": "COEN19",
+            "date": "2023-12-08 02:52:54 +0000 UTC"
+        },
+        {
+            "comment": "I don't know why this professor is rated so poorly. He is pretty good at describing new concepts in class and has a fun personality. The only thing I would say he could improve on is providing more practice problems to study with and maybe allowing the class to work on examples together.",
+            "tags": "Amazing lectures --Caring",
+            "class": "COEN19",
+            "date": "2023-12-01 23:48:03 +0000 UTC"
+        },
+        {
+            "comment": "Just avoid. Not very organized, and a lot of self-studying involved. Exams were difficult. ",
+            "tags": "Test heavy--Graded by few things",
+            "class": "COEN19",
+            "date": "2023-07-28 05:08:18 +0000 UTC"
+        },
+        {
+            "comment": "not good and not awful; Honestly the most u can expect out of online calc. class is pretty difficult and the final being worth 50% is just unreasonable. He knows what hes doing by having an online calc class and in person final worth 50%. Hes a nice guy just not a good teacher.",
+            "tags": "",
+            "class": "MATH30",
+            "date": "2022-03-14 00:22:22 +0000 UTC"
+        },
+        {
+            "comment": "He goes super fast in class and doesn't really answer questions. The whole class was online except for a 50% final in person which was pretty tough. The homework doesn't count for much but there's a lot of it along with two midterms and the heavy final. I wouldn't recommend.",
+            "tags": "Lots of homework--Skip class? You won't pass.--Tough grader",
+            "class": "MATH30",
+            "date": "2022-02-10 21:50:07 +0000 UTC"
+        },
+        {
+            "comment": "Took Discrete Math with him online and it was insane. Clearly a super brilliant dude who knows what he's talking about, but goes through proofs faster than you can write them down, let alone understand them. Beware of the final and utilize outside resources if you can't avoid taking him. Also has short office hours and which can be useful sometimes",
+            "tags": "Graded by few things--Test heavy",
+            "class": "COEN19",
+            "date": "2021-06-08 18:55:56 +0000 UTC"
+        },
+        {
+            "comment": "Assigned 19 problem sets over the course of the quarter. Three were graded total at the time of the final. Lectures were full of tangents that afforded little help. Homework assignments were unnecessarily hard and tedious (especially since he didn't grade them). Thankfully I knew the material prior to the course, if not... yikes.",
+            "tags": "",
+            "class": "MATH11",
+            "date": "2020-12-11 04:07:09 +0000 UTC"
+        },
+        {
+            "comment": "One of the most interesting professors I've had so far. He's obviously incredibly smart but it could be for his own good as students are often left confused as they walk out of his lectures. However, the homework is fair and you should get a good grade as his midterms are very similar to the study guides he gives you. If you review you'll be fine.",
+            "tags": "Clear grading criteria--Lecture heavy",
+            "class": "MATH13",
+            "date": "2020-05-05 06:38:11 +0000 UTC"
+        },
+        {
+            "comment": "Awesome professor. Really smart which may be intimidating, but incredibly nice &amp; understanding. Really inspirational and I am really glad I got the chance to take his courses as an undergrad.",
+            "tags": "Respected--Inspirational--Graded by few things",
+            "class": "MATH177",
+            "date": "2020-04-10 15:50:39 +0000 UTC"
+        },
+        {
+            "comment": "Graph theory wasn't worth it with Walden. Office hours barely helped at all. Class was unstructured, and Walden was all over the place. Would avoid him for more theoretical classes.",
+            "tags": "Skip class? You won't pass.--GRADED BY FEW THINGS--LECTURE HEAVY",
+            "class": "MATH177",
+            "date": "2017-03-31 13:20:06 +0000 UTC"
+        },
+        {
+            "comment": "Walden did a decent job teaching it. Not easy, but really rewarding, especially for ELENs (useful for controls, digital signal processing, etc.) This class could have been MUCH harder. Walden can sometimes be roundabout and not as engaging in the class, but he's pretty good in office hours. I recommend MATH 105 (should be offered every year!)",
+            "tags": "Skip class? You won't pass.--GRADED BY FEW THINGS--LECTURE HEAVY",
+            "class": "MATH105",
+            "date": "2016-12-24 21:39:29 +0000 UTC"
+        },
+        {
+            "comment": "Walden. The mere name inspires fear in those who've been graced by his presence. He commands math like a god, but unfortunately we are mere mortals and cannot comprehend his leaps and bounds of logic. His office hours are where you learn if he shows up.  Taking Complex Analysis with Walden was like serving in the Italian infantry.",
+            "tags": "Skip class? You won't pass.--Hilarious--GRADED BY FEW THINGS",
+            "class": "MATH105",
+            "date": "2016-12-06 01:56:37 +0000 UTC"
+        },
+        {
+            "comment": "Took him for algorithms. Might just be the worst professor at scu. Doesn't explain as he's lecturing, mumbles, etc. Gives midterms where averages were below 60%. Takes him forever to return homework (as if he grades them).",
+            "tags": "TEST HEAVY--LECTURE HEAVY",
+            "class": "CSCI161",
+            "date": "2016-11-09 01:21:44 +0000 UTC"
+        },
+        {
+            "comment": "His practice tests are key to getting an A in the class, since they're very similar to his midterms. The midterms themselves are only about as hard as the homework problems he assigns, so if you can do that without any trouble you should be fine in this class.",
+            "tags": "",
+            "class": "MATH12",
+            "date": "2016-02-26 19:51:57 +0000 UTC"
+        },
+        {
+            "comment": "While he's not the greatest teacher, his reviews for MATH 12 were very similar to his tests, and therefore I found him to be very fair. He's very disorganized and sometimes hard to follow, but he's incredibly smart, and if you have any calculus background from high school, you should be fine.",
+            "tags": "",
+            "class": "MATH12",
+            "date": "2016-02-12 17:54:30 +0000 UTC"
+        },
+        {
+            "comment": "I only had Byron for a 1 unit class, but he was very helpful outside of class for the homework assignments. He sometimes assumed I knew more than I did and I had to ask again about things he did not spend much time on. Pretty good teacher though, considering he was teaching to kids at all different levels of math experience.",
+            "tags": "",
+            "class": "MATH190",
+            "date": "2014-11-13 00:08:13 +0000 UTC"
+        },
+        {
+            "comment": "The class is basically high school review which causes you to sort of zone out and then it's midterm time. He is not helpful during class but will explain concepts pretty clearly during office hours. Try not to fall asleep in his class... Winter 2014",
+            "tags": "",
+            "class": "MATH12",
+            "date": "2014-05-22 15:39:07 +0000 UTC"
+        },
+        {
+            "comment": "First half of the class was review if you took calc AB in high school. Second half is new material which is poorly explained by walden. Mid terms are similar to the reviews he makes but typically the material is not what is covered in previous homeworks or lectures. Lectures put everyone to sleep",
+            "tags": "",
+            "class": "MATH12",
+            "date": "2014-03-06 23:33:08 +0000 UTC"
+        },
+        {
+            "comment": "He's brilliant, to say the least. I feel like he rushes through the important parts then will take an entire class period explaining something we learned in middle school. He always lets us out early and the homework isn't too bad. Definitely not a bad teacher or class!",
+            "tags": "",
+            "class": "MATH12",
+            "date": "2014-02-26 20:49:24 +0000 UTC"
+        },
+        {
+            "comment": "Explains at a reasonable rate. If you pay attention in class, then you will understand the material. Practice midterms are exactly like the exams, both in format and difficulty.",
+            "tags": "",
+            "class": "MATH12",
+            "date": "2014-01-20 21:30:20 +0000 UTC"
+        },
+        {
+            "comment": "If you come to class, do the homework, ask questions about the homework  problems you don't know how to do, and do the practice exams. You will get an a easily. He is super smart and a good teacher willing to help.",
+            "tags": "",
+            "class": "MATH12",
+            "date": "2013-12-06 00:25:54 +0000 UTC"
+        },
+        {
+            "comment": "Not a good teacher at all. He makes everything way more confusing than it needs to be. He doesn't really know how to explain concepts to the class. I do not recommend this class.",
+            "tags": "",
+            "class": "MATH11",
+            "date": "2013-11-18 17:31:16 +0000 UTC"
+        },
+        {
+            "comment": "Horrible teacher, works out concepts on the board- not problems and just make the subject so much more confusing",
+            "tags": "",
+            "class": "MATH12",
+            "date": "2013-11-07 20:42:08 +0000 UTC"
+        },
+        {
+            "comment": "He's clearly a genius, but his class is rushed, unclear for those without who haven't taken the subject, and goes by slowly. As someone who was sort of unfamiliar with calc, I ended up dropping after the first midterm. But, he does plan his tests to coincide with SCU's \"drop a class\" dates, so he's worth a try.",
+            "tags": "",
+            "class": "MATH11",
+            "date": "2012-12-22 15:47:31 +0000 UTC"
+        },
+        {
+            "comment": "Very smart guy, doesn't assign too much homework but enough to help you understand. Sometimes when working out problems on the board he rushes or skips out a step or two that he assumes we understand. Answers homework questions and goes over practice midterms very similar to actual midterm.",
+            "tags": "",
+            "class": "MATH13",
+            "date": "2011-12-07 01:53:40 +0000 UTC"
+        },
+        {
+            "comment": "he is a cool teacher that is fun and some may think he is weird but a really good teacher and easy to understand, not too much work and grades fairly, recommend him compared to other math teachers",
+            "tags": "",
+            "class": "CALC14",
+            "date": "2011-05-26 17:06:26 +0000 UTC"
+        },
+        {
+            "comment": "What a G. He teaches well, but you know, like other subjects, you have to read after to make sure you understand the math fully. Pretty easy, too.",
+            "tags": "",
+            "class": "MATH14",
+            "date": "2010-10-12 13:56:32 +0000 UTC"
+        },
+        {
+            "comment": "Sometimes he made things look more complicated than they should have been, but mostly pretty straightforward. Take notes, homework based on the notes, tests based on the homework. He answers questions.",
+            "tags": "",
+            "class": "MATH12",
+            "date": "2010-03-15 23:45:54 +0000 UTC"
+        },
+        {
+            "comment": "He basically just rewrites everything that is in the book onto the board, and sometimes his examples and explanations just confuse you even more than it had before. My recommendation is to go to the study sessions before the midterms and the final because his test is basically set up in that style.",
+            "tags": "",
+            "class": "MATH13",
+            "date": "2009-11-17 19:54:57 +0000 UTC"
+        },
+        {
+            "comment": "very helpful and nice",
+            "tags": "",
+            "class": "MATH21",
+            "date": "2009-04-28 02:01:15 +0000 UTC"
+        },
+        {
+            "comment": "He never taught concepts; he only copied the example problems from the book, and then upon making mistakes, would ask us where he went wrong. We had no clue because we didn't know what he was doing because he didn't teach us. Walden often spent entire classes trying to work one problem and ultimately failing, thereby wasting the entire class period",
+            "tags": "",
+            "class": "MATH22",
+            "date": "2009-04-14 22:24:08 +0000 UTC"
+        },
+        {
+            "comment": "easy class because most of it is a review from high school. tests arent terrible but has a different style of teaching",
+            "tags": "",
+            "class": "MATH12",
+            "date": "2008-11-17 18:33:38 +0000 UTC"
+        },
+        {
+            "comment": "Class was relatively easy UNTIL THE FINAL, which was ridiculously hard. It was nothing like the midterm or the practice final he uploaded online.",
+            "tags": "",
+            "class": "MATH12",
+            "date": "2008-03-27 20:52:19 +0000 UTC"
+        },
+        {
+            "comment": "No Comments",
+            "tags": "",
+            "class": "MATH13",
+            "date": "2007-01-31 13:13:19 +0000 UTC"
+        }
+    ]
+}

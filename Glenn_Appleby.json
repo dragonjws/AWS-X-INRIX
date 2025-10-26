@@ -1,0 +1,272 @@
+{
+    "professor_info": {
+        "firstName": "Glenn",
+        "lastName": "Appleby",
+        "department": "Mathematics",
+        "school": "Santa Clara University",
+        "avgRating": 3.3,
+        "avgDifficulty": 3.9,
+        "numRatings": 43,
+        "wouldTakeAgainPercent": 50
+    },
+    "comments": [
+        {
+            "comment": "Incredibly difficult to grasp anything from lectures. Pace is fast, and lots of key pieces aren't highlighted nearly enough. Instead, long proofs that really will not help your understanding in the class made up a significant portion of every lecture. I attended office hours at least once every week, but still had lots of trouble with the content.",
+            "tags": "Tough grader--Lots of homework--Lecture heavy",
+            "class": "MATH53",
+            "date": "2025-08-10 02:42:03 +0000 UTC"
+        },
+        {
+            "comment": "This class is homework intensive so expect homework due before the start of every class (total of ~21). Review the content covered in each class cuz it does pile up and you don't want to be scrambling before each midterm. There are 3 midterms but the 3rd midterm is given during finals work. Overall, he's a great and passionate professor.",
+            "tags": "Gives good feedback--So many papers--Graded by few things",
+            "class": "MATH53",
+            "date": "2025-06-18 01:24:27 +0000 UTC"
+        },
+        {
+            "comment": "Good professor for linear algebra. Tests were difficult, but the types of problems on the midterms were made clear beforehand. Homework was a bit tedious at times, but overall average for a math class. He goes over a lot of theory & proofs in class, which I would prefer that time be spent on more examples. Otherwise, not much to complain about.",
+            "tags": "Test heavy--Accessible outside class",
+            "class": "MATH53",
+            "date": "2025-06-17 23:24:24 +0000 UTC"
+        },
+        {
+            "comment": "Took him for MATH 13H as well. Very passionate and kind. Never loved his teaching style because he goes over explains theory and does few examples. He expects you to put a LOT of work outside of class but is available to help. Easy tests if you do the work. One thing I never liked is that he refuses to put out homework/practice problem solutions. ",
+            "tags": "Lots of homework--Accessible outside class",
+            "class": "MATH53",
+            "date": "2025-05-29 16:37:53 +0000 UTC"
+        },
+        {
+            "comment": "Professor Appleby is a very nice professor who clearly is passionate about calculus. A homework assignment is given after every class, and tend to be lengthy. Tests are relatively difficult (you overlook problems thinking he wouldn't give such a hard problem), but is actually quite generous with partial credit. He does curve. Overall, I liked him!",
+            "tags": "Lots of homework--Caring--Accessible outside class",
+            "class": "MATH12",
+            "date": "2025-03-30 23:41:22 +0000 UTC"
+        },
+        {
+            "comment": "I won't lie, he is a tough teacher, especially if you take one of his honors sections, but I love him so much as a teacher! You HAVE to go to his office hours if you want to take this class; however, if you take your time to talk to him you will learn so much. I definitely will try to take another one of his classes!",
+            "tags": "Participation matters--Clear grading criteria--Accessible outside class",
+            "class": "MATH13",
+            "date": "2024-12-12 04:19:00 +0000 UTC"
+        },
+        {
+            "comment": "Most unforgiving prof/class I have taken at SCU. Tests are very challenging and although attendance isn't mandatory there are pop quizzes that add up to a considerable amount of your grade. Heavy homework assignments after every class, although he has office hours that can be helpful but also crowded as a lot of people need HW help.",
+            "tags": "Lots of homework--Beware of pop quizzes--Lecture heavy",
+            "class": "MATH53",
+            "date": "2024-07-28 10:36:17 +0000 UTC"
+        },
+        {
+            "comment": "He is a great professor. Just ask him for help and you will pass the class",
+            "tags": "Get ready to read--Participation matters--Gives good feedback",
+            "class": "MATH53",
+            "date": "2024-06-18 00:44:34 +0000 UTC"
+        },
+        {
+            "comment": "Only class I've ever dropped at SCU-- I've gotten an A in all 5 of my other maths. Expects you to learn material outside of class, and grades on things that haven't been taught. Frequent heavy homework, pop quizzes, never posts homework or review sheet solutions. Lectures filled with dense proofs, no examples or breaks for comprehension. Avoid.",
+            "tags": "Tough grader--Lots of homework--Lecture heavy",
+            "class": "MATH53",
+            "date": "2024-05-14 22:45:47 +0000 UTC"
+        },
+        {
+            "comment": "This is one of my favorite professors I've had at SCU. Go to office hours!! He will really like you if you do. He genuinely wants you to succeed. There is homework every class period so beware of that. Grading is fair and his lectures are interesting. Highly recommend taking him!",
+            "tags": "Lots of homework--Accessible outside class",
+            "class": "MATH53",
+            "date": "2024-05-05 00:26:27 +0000 UTC"
+        },
+        {
+            "comment": "This class was SO much work. His lectures were inapplicable to the homework and tests, and required spending hours (like 15+) every week doing the hw, going to his office hours, and literally crying when he provided useless explanations during OH. It was bad. He did end up giving partial credit for his exams BUT they were ridiculously hard. ",
+            "tags": "Lots of homework",
+            "class": "MATH13",
+            "date": "2023-07-28 05:11:17 +0000 UTC"
+        },
+        {
+            "comment": "I was struggling in the class but he was really nice and I ended up getting an A in the end. He is a caring professor who wants to see you succeed as long as you put in the effort.",
+            "tags": "Gives good feedback--Caring",
+            "class": "MATH13",
+            "date": "2023-03-10 20:58:07 +0000 UTC"
+        },
+        {
+            "comment": "Lots of homework which is useless, I have to watch amout of videoes to figure out the concept he wrote on the board. He basically expected you to learn by yourself. Even though he has lots of office hours, you would not have enough time to go to office hour The purpose of this class is to grade your self-learning ability.\n\nTrust me, choose others. ",
+            "tags": "Lots of homework",
+            "class": "MATH53",
+            "date": "2022-05-23 18:48:58 +0000 UTC"
+        },
+        {
+            "comment": "Echoing what others said, this professors does not take a breath during lectures to the point where it becomes almost impossible to follow for 60+ minutes straight. Appleby treats homework as if his class was a student's only class. Expects you to learn new concepts by doing the homework. Take someone else.",
+            "tags": "Tough grader--Lots of homework--Lecture heavy",
+            "class": "MATH53",
+            "date": "2022-05-14 02:27:33 +0000 UTC"
+        },
+        {
+            "comment": "Insane amounts of homework for an intro linear algebra course. Homework are made in such a way that forces you to learn new material by doing homework. Lectures are abstract and don't connect to the concrete questions asked on tests/homeworks. Doesn't provide answers to check your work. Class not geared towards self-learning, must attend office hrs",
+            "tags": "Lots of homework--Caring--Lecture heavy",
+            "class": "MATH53",
+            "date": "2022-05-13 01:21:01 +0000 UTC"
+        },
+        {
+            "comment": "Appleby (and MATH 102) is hard. There is lots of homework and you have to put in work. He seems slightly unapproachable at first, but approach him! His office hours are where the most learning occurs and he's SO knowledgeable about math. It will be hard but you will learn a lot if you put in work. He's also surprisingly hilarious (if you like math)",
+            "tags": "Respected--Lots of homework--Accessible outside class",
+            "class": "MATH102",
+            "date": "2021-11-28 02:42:59 +0000 UTC"
+        },
+        {
+            "comment": "Terrible handwriting. He speaks SO MUCH in lecture, talking about how much he loves mathematics.",
+            "tags": "",
+            "class": "MATH53",
+            "date": "2021-09-09 20:31:42 +0000 UTC"
+        },
+        {
+            "comment": "He did curve the tests (a bit), he is very clear about his grading policy, was overall very reasonable (tests pretty similar to homework and homework load was average for a math course), and made more than plenty of time for office hours. One of my favorite professors thus far and he really seems to care about students' learning.",
+            "tags": "Gives good feedback--Accessible outside class--Clear grading criteria",
+            "class": "MATH53",
+            "date": "2021-05-18 01:17:24 +0000 UTC"
+        },
+        {
+            "comment": "Prof. Appleby truly must believe that his class is the only class you are taking. Gives an insane amount of homework and makes it clear that you will not pass his class unless you do it EXACTLY as he has pre ordained. Attending office hours regularly/submitting to piazza. Terribly anal about grading. Avoid at all costs.",
+            "tags": "Gives good feedback--Lots of homework--Tough grader",
+            "class": "MATH170",
+            "date": "2021-03-29 18:07:32 +0000 UTC"
+        },
+        {
+            "comment": "-Terribly anal about grading. No grading curves (C average). - Believes students have absolutely nothing else to do except for his class based on the overwhelming amount of homework and extremely high expectations. - Assumes students are all professionals at linear algebra already - overall class is more of a test than a learning experience.",
+            "tags": "Lots of homework--Accessible outside class--Tough grader",
+            "class": "MATH103",
+            "date": "2020-11-04 06:33:51 +0000 UTC"
+        },
+        {
+            "comment": "Literally talks so much for no reason. Makes class mandatory when I can learn all the information in the book. He's better one on one than in class. He just doesn't stop talking its draining",
+            "tags": "Tough Grader--Get ready to read",
+            "class": "MATH53",
+            "date": "2018-02-05 15:32:22 +0000 UTC"
+        },
+        {
+            "comment": "Overall expects students to have content knowledge beyond what is listed as pre-reqs. Is really hard on homework and &quot;conceptual understanding&quot; but does nothing to further the latter. Very unapproachable.",
+            "tags": "Skip class? You won't pass.--LOTS OF HOMEWORK--LECTURE HEAVY",
+            "class": "MATH53",
+            "date": "2018-02-01 01:48:33 +0000 UTC"
+        },
+        {
+            "comment": "Straight to the point. His class is tough, BUT you will come out having the best understanding of the material. Make sure to go to OH. He is hard but fair. Appleby is easily may favorite teacher i have ever had ( i have taken him 3 times and will take him as many more times as i can).",
+            "tags": "Respected--LOTS OF HOMEWORK--Inspirational",
+            "class": "MATH103",
+            "date": "2017-05-01 18:00:44 +0000 UTC"
+        },
+        {
+            "comment": "Despite his monotonous tone in class, Appleby is a very knowledgeable man. HW was due almost every lecture, but really prepares one well for the tests if done properly. He has office hours quite often, and is willing to help people succeed (albeit his explanations are kinda roundabout). Take him if you are up for the challenge (especially lin alg)!",
+            "tags": "Skip class? You won't pass.--LOTS OF HOMEWORK--ACCESSIBLE OUTSIDE CLASS",
+            "class": "MATH102",
+            "date": "2016-12-14 23:34:19 +0000 UTC"
+        },
+        {
+            "comment": "I found his tests tough based off the conceptual questions. He is a far more conceptual teacher than the other MATH53 teachers. That being said, he is probably one of the better teachers. Holds office hours the day before classes which were extremely helpful. Would have liked to receive test reviews more than a class before the tests though.",
+            "tags": "",
+            "class": "MATH53",
+            "date": "2016-03-24 23:35:23 +0000 UTC"
+        },
+        {
+            "comment": "I love Appleby and would definitley take him again. This being said, he is by far a much more conceptual teacher and his questions on his tests reflects this. Tests are pretty tough and he only gives out the review the class before the test, only one office hour avail before test. His office hours are awesome though.",
+            "tags": "",
+            "class": "MATH53",
+            "date": "2016-03-04 21:07:15 +0000 UTC"
+        },
+        {
+            "comment": "Very tough with participation points (I participated a lot and definitely the most out of everyone and didn't get full credit). He grades hard, which is fine, except he does not curve!!",
+            "tags": "",
+            "class": "170",
+            "date": "2015-07-29 19:10:34 +0000 UTC"
+        },
+        {
+            "comment": "Far and away the best teacher I've ever had at SCU. Very friendly and understanding, clear in his explanations, and extremely inviting and helpful in office hours. My best memories of any class at this school are of talking with him in his office hours. Loves teaching and truly cares about his students.",
+            "tags": "",
+            "class": "MATH14",
+            "date": "2014-01-16 00:38:27 +0000 UTC"
+        },
+        {
+            "comment": "lectures make no sense. impossible class. very nice and willing to help but when you go into office hours you can't even step into his office because everyone is already there. his practice problems before midterm completely unhelpful. everything  on it is 100000 times harder than homework. attendance mandatory also.",
+            "tags": "",
+            "class": "MATH13",
+            "date": "2013-05-26 23:46:32 +0000 UTC"
+        },
+        {
+            "comment": "Apply is a wonderful math teacher. His lectures can get interesting, and he knows all the materials. His tests can be quite challenging, but his grading is flexible. Homework is assigned (about 12 problems) and it is essential in this class, so don't forget! Also, he's a busy guy so classes get canceled once in awhile. I recommend this guy.",
+            "tags": "",
+            "class": "MATH30",
+            "date": "2012-11-16 16:20:08 +0000 UTC"
+        },
+        {
+            "comment": "Appleby is the man. He's a great teacher, gives clear lectures and is extremely helpful in office hours. His tests are straightforward (he provides study guides) and is generous on giving partial credit. If you have take linear algebra, you want Appleby.",
+            "tags": "",
+            "class": "MATH51",
+            "date": "2012-05-18 02:03:50 +0000 UTC"
+        },
+        {
+            "comment": "He is very interested in the subject that he teaches and wants all of his students to actually understand the material. Seems very nice and friendly. I recommend him.",
+            "tags": "",
+            "class": "MATH14",
+            "date": "2012-02-22 15:25:29 +0000 UTC"
+        },
+        {
+            "comment": "Unlike most teachers who claim they're always willing to help, Professor Appleby actually is. He will work very hard to make sure his students understand if they're willing to try.",
+            "tags": "",
+            "class": "MATH14",
+            "date": "2011-05-04 00:57:10 +0000 UTC"
+        },
+        {
+            "comment": "This teacher is amazing! Everyone who doesn't think so is either incompetent in math or just a terrible slacker. His classes are hard, but he is always willing to go the extra mile and help his students. His lectures are clear (if you pay attention!) and office hours are incredibly helpful. Overall, he's one of the best math teachers that SCU has.",
+            "tags": "",
+            "class": "MATH53",
+            "date": "2011-03-17 01:11:09 +0000 UTC"
+        },
+        {
+            "comment": "fantastic teacher.  Always available to help and very easy if you go to his office hours.",
+            "tags": "",
+            "class": "MATH11",
+            "date": "2009-02-18 11:42:11 +0000 UTC"
+        },
+        {
+            "comment": "The lectures were all but useless in terms of understanding the material... or staying awake.  If you put in the effort, however, he is always willing to spend extra time during office hours and this time is valuable.  He's a better tutor than instructor which leads me to think he's not in touch with what is difficult for the students; most of it.",
+            "tags": "",
+            "class": "MATH11",
+            "date": "2009-02-07 19:09:06 +0000 UTC"
+        },
+        {
+            "comment": "He was a great teacher! I did not need a tutor for this challenging class because he was always available to help! He was always clear and helpful",
+            "tags": "",
+            "class": "MATH11",
+            "date": "2008-06-19 15:06:17 +0000 UTC"
+        },
+        {
+            "comment": "He doesn't explain anything.  He likes to give tests where you can never get full credit",
+            "tags": "",
+            "class": "MATH13",
+            "date": "2007-11-12 18:59:25 +0000 UTC"
+        },
+        {
+            "comment": "The guy has no idea how to teach. He uses theroms as examples and expects you to know how to do the problems form them. Gives no real examples using actual numbers. The guy CAN'T teach!",
+            "tags": "",
+            "class": "MATH11",
+            "date": "2007-02-22 22:26:41 +0000 UTC"
+        },
+        {
+            "comment": "He is good!",
+            "tags": "",
+            "class": "FEW101",
+            "date": "2006-10-03 22:16:23 +0000 UTC"
+        },
+        {
+            "comment": "the dude is impossible. he doesn't teach the material and when you go for help you can't get a seat because the whole class is already there. not recomended AT ALL.",
+            "tags": "",
+            "class": "MATH11",
+            "date": "2005-12-14 17:39:04 +0000 UTC"
+        },
+        {
+            "comment": "his lecture was very confusing, grading was very hard",
+            "tags": "",
+            "class": "MATH53",
+            "date": "2005-04-29 00:12:59 +0000 UTC"
+        },
+        {
+            "comment": "Expects of a freshman class for LINEAR ALGEBRA as though you are a masters student in the subject and grades harshly as though you are in a medical program perhaps. Very uncooperative.",
+            "tags": "",
+            "class": "MATH53",
+            "date": "2005-03-24 23:07:55 +0000 UTC"
+        }
+    ]
+}

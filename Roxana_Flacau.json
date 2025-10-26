@@ -1,0 +1,110 @@
+{
+    "professor_info": {
+        "firstName": "Roxana",
+        "lastName": "Flacau",
+        "department": "Physics",
+        "school": "Santa Clara University",
+        "avgRating": 4.3,
+        "avgDifficulty": 3.2,
+        "numRatings": 16,
+        "wouldTakeAgainPercent": 87.5
+    },
+    "comments": [
+        {
+            "comment": "This teacher provides no slides, it is difficult to understand her, and she provides minimal guidance as to how we should approach problems. Her lectures are seemingly all over the place, and it is very difficult to apply class teachings or homework to new problems.",
+            "tags": "Lecture heavy--Test heavy--Graded by few things",
+            "class": "PHYS32",
+            "date": "2025-10-16 04:32:22 +0000 UTC"
+        },
+        {
+            "comment": "Prof Flacau does lots of examples in class and is very open to answering questions! There are weekly homework and quizzes. She gives practice midterms, and if you do those you will be fine for the midterms. Instead of an equation sheet, she lets you bring in one notecard for quizzes and midterms, which I found to be super helpful.",
+            "tags": "Gives good feedback",
+            "class": "PHYS32",
+            "date": "2025-10-14 21:30:03 +0000 UTC"
+        },
+        {
+            "comment": "Very caring and patient when asking her questions, clear lectures with lots of examples help to understand. 6 quizzes, 1 midterm, 1 final. Quizzes are easy, only 1 or 2 questions similar to the examples in class, and you can argue for your grade with her after quizzes or exams.",
+            "tags": "Amazing lectures --Inspirational--Caring",
+            "class": "PHYS32",
+            "date": "2025-10-09 19:27:14 +0000 UTC"
+        },
+        {
+            "comment": "You can study days and days, all day, and still end up doing bad. Her exams aren't that fair. So how can I get A's in other stem classes and still get screwed over here? Don't take her. Seriously. You'll get a higher grade with other physics profs than Flacau.",
+            "tags": "",
+            "class": "PHYS32",
+            "date": "2025-06-18 21:42:01 +0000 UTC"
+        },
+        {
+            "comment": "She is a very good professor. If you attend class and pay attention to what she is saying, you will do great. She gives a lot of practice which prepares you for the midterms and final. ",
+            "tags": "Amazing lectures --Caring--Graded by few things",
+            "class": "PHYS32",
+            "date": "2025-04-17 19:16:02 +0000 UTC"
+        },
+        {
+            "comment": "Flacau is a good professor who is extremely helpful and patient, but she also is very kind and you'll never be shamed for a question you ask. However, I do not appreciate how grades are distributed, it is extremely difficult to get an A, you must be at the very very top to have a chance. Her exams are not easy, but doable if conceptually understood",
+            "tags": "Gives good feedback--Lots of homework--Lecture heavy",
+            "class": "PHYS31",
+            "date": "2025-03-30 07:28:36 +0000 UTC"
+        },
+        {
+            "comment": "Physics is generally challenging, but she is very helpful during office hours. She also drops the lowest quiz at the end of the quarter and curves the final grade up a level. Her tests aren't the easiest compared to other physics professors I've had, but if you keep up with the homework, you should do fine on the midterm.",
+            "tags": "Caring--Lecture heavy--Test heavy",
+            "class": "PHYS32",
+            "date": "2025-03-11 03:54:39 +0000 UTC"
+        },
+        {
+            "comment": "Dr. Flacau is very considerate and very kind, and is available if you have any questions. Her exams have questions that you have to think a little bit outside of the box for, but they can definitely be solved. She is a very fair grader, and I would take her again!",
+            "tags": "Gives good feedback--Caring--Test heavy",
+            "class": "PHYS32",
+            "date": "2024-12-19 21:34:18 +0000 UTC"
+        },
+        {
+            "comment": "I took the summer course and with not much previous background of physics from high school I preformed the best I could with what I learned in the short span, I would have not passed this class if it wasn't for her availability of always being there to help and explaining it in more basic principles. ",
+            "tags": "Lots of homework--Caring--Accessible outside class",
+            "class": "PHYS31",
+            "date": "2024-08-28 00:30:06 +0000 UTC"
+        },
+        {
+            "comment": "Dr. Flacau is an exceptional professor who is very patient and helpful during office hours. Her quizzes and exams are fair. The class is manageable if you pay attention and complete the homework. She's a caring instructor who explains difficult concepts well and not too harshly graded. Highly recommended!",
+            "tags": "Caring--Respected--Test heavy",
+            "class": "PHYS31",
+            "date": "2024-06-21 11:20:04 +0000 UTC"
+        },
+        {
+            "comment": "She is very nice and very helpful during office hours. She will patiently help you understand any confusing material. Her quizzes and exams are very fair. If you pay attention and do all the homework it is not hard to pass.",
+            "tags": "",
+            "class": "PHYS1",
+            "date": "2024-04-13 20:40:16 +0000 UTC"
+        },
+        {
+            "comment": "Did not want to take my natural science but she was so sweet and I'm glad I took her. Her class is not super hard and she is a nice grader. There are two midterms and a group presentation. No final for this class. ",
+            "tags": "",
+            "class": "PHYS1",
+            "date": "2024-02-29 00:15:27 +0000 UTC"
+        },
+        {
+            "comment": "Dr. Flacau is very caring and a great lab instructor. I also had her for Physics 31 Recitation and she was always very patient with questions and made sure we understood. I hope to have her again!",
+            "tags": "Gives good feedback--Caring",
+            "class": "PHYS31L",
+            "date": "2022-03-15 22:26:30 +0000 UTC"
+        },
+        {
+            "comment": "Very friendly and relaxed. Made lab enjoyable. Doesn\u2019t grade too harshly either ",
+            "tags": "Clear grading criteria--Gives good feedback--Respected",
+            "class": "PHYS31L",
+            "date": "2022-03-13 20:47:53 +0000 UTC"
+        },
+        {
+            "comment": "Very helpful and kind. Also good at explaining the difficult concepts from lecture in the lab.",
+            "tags": "Gives good feedback--Respected--Caring",
+            "class": "PHYS32L",
+            "date": "2017-06-23 14:25:53 +0000 UTC"
+        },
+        {
+            "comment": "I took her for lab, and she's pretty easy-going. Whenever you ask her about confusing concepts in the lab, she's always more than willing to help. Would take her lab section again.",
+            "tags": "",
+            "class": "PHYS32L",
+            "date": "2016-06-06 23:41:42 +0000 UTC"
+        }
+    ]
+}

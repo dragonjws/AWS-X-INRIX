@@ -1,0 +1,116 @@
+{
+    "professor_info": {
+        "firstName": "Nathan",
+        "lastName": "Williams",
+        "department": "Physics",
+        "school": "Santa Clara University",
+        "avgRating": 4.8,
+        "avgDifficulty": 3.4,
+        "numRatings": 17,
+        "wouldTakeAgainPercent": 93.75
+    },
+    "comments": [
+        {
+            "comment": "Amazing teacher who managed to teach the entirety of vector calculus more clearly and succinctly than any previous math teacher of mine. Interesting lectures, and he works through lots of examples in class, which is helpful for the tests. Tests are straightforward, and at times, the HW was harder than the test problems. 10/10 would take again. ",
+            "tags": "Amazing lectures --Caring--Accessible outside class",
+            "class": "PHYS111",
+            "date": "2025-06-18 20:50:32 +0000 UTC"
+        },
+        {
+            "comment": "Dr. Williams is awesome. Lectures are always easy to follow and interesting. He always brings a lot of physical examples to class to show us/let us try out for ourselves. Very fair grader, mostly concerned with whether you understand the physics and how you work through the problem rather than the actual answer.",
+            "tags": "",
+            "class": "PHYS11",
+            "date": "2024-11-21 05:03:38 +0000 UTC"
+        },
+        {
+            "comment": "Dr. Williams is an incredible professor! His lectures are easy to follow and he gives a lot of partial credit on exams. ",
+            "tags": "Caring--Accessible outside class",
+            "class": "PHYS111213",
+            "date": "2024-06-15 04:15:21 +0000 UTC"
+        },
+        {
+            "comment": "Professor Williams is one of the BEST professors I've had. I'm so glad I took his physics course, and he made the class so much better. His notes are very organized and readable, but I advise you to attend all his lectures to do well in his class. Midterms are okay, and he is very helpful during office hours and overall a very caring professor.",
+            "tags": "Amazing lectures --Gives good feedback--Accessible outside class",
+            "class": "PHYS11",
+            "date": "2024-04-19 15:13:35 +0000 UTC"
+        },
+        {
+            "comment": "dr. williams is easily one of the best professors i've ever had. i took physics over the summer which means it was a faster-paced course, but dr. williams made it very manageable. he is not only a fantastic teacher but also a funny and kind-hearted person who rly cares for his students. & he takes time to help students outside of class! take him!!!",
+            "tags": "Amazing lectures --Gives good feedback--Caring",
+            "class": "PHYS111213",
+            "date": "2023-07-19 02:40:31 +0000 UTC"
+        },
+        {
+            "comment": "Funny lectures and well-paced classes make hard topics much easier to understand. Always honest and willing to go out of his way to help both in class and during office hours. Test questions are hard but fair as well as the grading. Probably the best lower-div physics professor. ",
+            "tags": "Amazing lectures --Hilarious--Caring",
+            "class": "PHYS33",
+            "date": "2023-05-22 19:21:08 +0000 UTC"
+        },
+        {
+            "comment": "Williams is the best professor in the physics department. For such a hard course, Williams plans the course out so that it progresses in a manageable way. I rarely felt that we were moving too fast, but given that it is physics, expect the material to fly by regardless. I had him for phys 31-33, and the key is to take good notes.",
+            "tags": "Amazing lectures --Inspirational--Caring",
+            "class": "PHYS33",
+            "date": "2022-12-04 19:47:33 +0000 UTC"
+        },
+        {
+            "comment": "Williams is such an amazing and caring professor. He has great energy, a good personality, and really cares about his students. Physics is by no means an easy class, so I do recommend attending his office hours, even to just do HW. He explains and answers things amazingly well. He's a great guy to get to know and makes a difficult subject doable :)",
+            "tags": "Amazing lectures --Caring--Accessible outside class",
+            "class": "PHYS33",
+            "date": "2022-10-31 08:15:14 +0000 UTC"
+        },
+        {
+            "comment": "I see some reviews on here for Dr. Williams that make him seem like he's not that great of a teacher, and that is not at all true. He is a really good teacher who is extremely passionate about what he's teaching. If you can pick anyone for physics, lecture or lab, pick Dr. Williams I promise you won't regret it.",
+            "tags": "Respected--Amazing lectures--Caring",
+            "class": "PHYS33",
+            "date": "2021-12-02 16:54:11 +0000 UTC"
+        },
+        {
+            "comment": "It's upsetting to see anyone give Dr. Williams a bad review. He truly cares for all his students, Physics is HARD but Dr. Williams makes it possible. I hate physics and by some miracle Dr. Williams made me love it. Dr. Williams if you're reading this right now, don't listen to the haters you are AMAZING! It's not you that's difficult, it's physics.",
+            "tags": "Accessible outside class--Inspirational--Amazing lectures",
+            "class": "PHYS111213",
+            "date": "2020-08-04 03:31:01 +0000 UTC"
+        },
+        {
+            "comment": "Physics is a difficult subject, and Dr. Williams is adept at explaining concepts during lecture. However, hw/tests are purely math based which made lecture feel useless at times. Textbook is very unhelpful, especially with explaining how to approach more complicated problems. Offers teachbacks on midterms, which helps boosts grades.",
+            "tags": "Test heavy--Hilarious",
+            "class": "PHYS11",
+            "date": "2019-12-21 08:27:37 +0000 UTC"
+        },
+        {
+            "comment": "Waking up at 7 am to attend 3 and 1/2 hours of lecture and 4 hour labs seemed unbearable beforehand, but Professor Williams made these events such a breeze. He is one of the most helpful and thoughtful professors I have ever met, always staying after office hours and using his humor to better explain the lecture material. Wonderful in every way.",
+            "tags": "Accessible outside class--Amazing lectures--Caring",
+            "class": "PHYS111213",
+            "date": "2019-08-22 05:41:16 +0000 UTC"
+        },
+        {
+            "comment": "Textbook is terrible--multiple typos and wrong answers in the back of the book. Williams is a nice guy, but he is too simplistic with his lectures. Textbook problems and tests are a lot more difficult than sample problems done in class. I really hated his class on multiple levels. Fortunately, the finals were really easy, and I got 100% on one.",
+            "tags": "",
+            "class": "PHYS1213",
+            "date": "2017-11-04 21:32:00 +0000 UTC"
+        },
+        {
+            "comment": "This class man. I dont know, I guess physics and I dont really mix that well. The professor is nice and theoretically a good lecturer, but he is so conceptual, which is kind of problematic for a class that is essentially math based. He doesnt go through many practice problems in class. The physics book used is really terrible. Ehh He is OK.",
+            "tags": "Tough Grader--ACCESSIBLE OUTSIDE CLASS",
+            "class": "PHYS11",
+            "date": "2016-12-16 02:20:53 +0000 UTC"
+        },
+        {
+            "comment": "I took summer physics. A year condensed into 9 weeks. 4 hour lectures 5 days a week and 2 to 3 hour labs twice a week.  I found myself excited each day. He is passionate in his teaching and genuinely cares for the students. After the lecture + lab, he would often stay to help and answer questions. What every prof should aspire to be like. Thank you",
+            "tags": "Respected--ACCESSIBLE OUTSIDE CLASS--Caring",
+            "class": "PHYS38167",
+            "date": "2016-12-11 22:44:57 +0000 UTC"
+        },
+        {
+            "comment": "Williams was super approachable and would stay in office hours practically ALL DAY. He's really nice and explains the material very well. Probably my favorite physics professor.",
+            "tags": "ACCESSIBLE OUTSIDE CLASS--Hilarious",
+            "class": "PHYS32",
+            "date": "2016-11-02 23:46:30 +0000 UTC"
+        },
+        {
+            "comment": "I am so glad that I got to take Nathan for physics. He made it interesting and fun at 8/9:15 in the morning. He's hilarious and always making jokes and doing cool demos. Would definitely recommend.",
+            "tags": "",
+            "class": "PHYS13",
+            "date": "2016-04-21 03:01:02 +0000 UTC"
+        }
+    ]
+}

@@ -1,6 +1,6 @@
 import requests
 import json
-import csv
+from typing import List, Dict, Any
 
 SCHOOL_ID = "U2Nob29sLTg4Mg=="
 
@@ -76,10 +76,6 @@ def get_professor_comments(professor_id, count=50):
                 date
               }
             }
-            pageInfo {
-              hasNextPage
-              endCursor
-            }
           }
         }
       }
@@ -127,35 +123,20 @@ def save_combined_json(professor, comments, filename):
     with open(filename, "w") as f:
         json.dump(combined, f, indent=4)
     print(f"Saved JSON: {filename}")
+    return combined
 
-def save_combined_csv(professor, comments, filename):
-    with open(filename, "w", newline="") as f:
-        writer = csv.writer(f)
-
-        # Write professor info section
-        writer.writerow(["Professor Information"])
-        writer.writerow(["First Name", professor.get("firstName")])
-        writer.writerow(["Last Name", professor.get("lastName")])
-        writer.writerow(["Department", professor.get("department")])
-        writer.writerow(["School", professor.get("school", {}).get("name")])
-        writer.writerow(["Average Rating", professor.get("avgRating")])
-        writer.writerow(["Average Difficulty", professor.get("avgDifficulty")])
-        writer.writerow(["Number of Ratings", professor.get("numRatings")])
-        writer.writerow(["Would Take Again (%)", professor.get("wouldTakeAgainPercent")])
-        writer.writerow([])
-
-        # Write comments section
-        writer.writerow(["Comments"])
-        writer.writerow(["Date", "Class", "Tags", "Comment"])
-        for c in comments:
-            writer.writerow([c.get("date"), c.get("class"), ", ".join(c.get("tags", [])), c.get("comment")])
-
-    print(f"Saved CSV: {filename}")
-
-def main():
+def rateMyProfessor(name):
     print("Rate My Professors SCU - Live Data")
-    first_name = input("Enter professor's first name: ").strip()
-    last_name = input("Enter professor's last name: ").strip()
+    
+    #first_name = input("Enter professor's first name: ").strip()
+    #last_name = input("Enter professor's last name: ").strip()
+    parts = name.strip().split()
+    if len(parts) < 2:
+        print(f"Skipping '{name}': need at least first and last name.")
+        return
+    
+    first_name = parts[0]
+    last_name  = " ".join(parts[1:])   # supports multi-word last names
 
     professor = get_professor_info(first_name, last_name)
     if not professor:
@@ -164,9 +145,49 @@ def main():
 
     comments = get_professor_comments(professor.get("id"))
 
-    filename_base = f"{first_name}_{last_name}"
-    save_combined_json(professor, comments, f"{filename_base}.json")
-    save_combined_csv(professor, comments, f"{filename_base}.csv")
+    filename = f"{name}.json"
+    save_combined_json(professor, comments, filename)
 
-if __name__ == "__main__":
-    main()
+def parse_courses_list(text: str) -> List[str]:
+    # "PSYC 51, MATH 30" -> ["PSYC 51","MATH 30"]
+    return [c.strip() for c in text.split(",") if c.strip()]
+
+def handle_ai_output(ai_json_text: str):
+    """
+    ai_json_text should look like:
+    {
+      "assignments": [
+        {"course":"PSYC 51","professor":{"first":"Shan","last":"Wu"}},
+        {"course":"MATH 30","professor":{"first":"Jane","last":"Doe"}}
+      ]
+    }
+    """
+    data = json.loads(ai_json_text)
+    seen = set()
+    for item in data.get("assignments", []):
+        prof = item.get("professor", {})
+        first = (prof.get("first") or "").strip()
+        last  = (prof.get("last")  or "").strip()
+        if not first or not last:
+            print(f"Missing name in item: {item}")
+            continue
+        key = (first.lower(), last.lower())
+        if key in seen:
+            continue
+        seen.add(key)
+        rateMyProfessor(f"{first} {last}")
+        
+
+def professorRater(first_name, last_name):
+    professor = get_professor_info(first_name, last_name)
+    if not professor:
+        print(f"Professor not found or unable to fetch info for {first_name} {last_name}.")
+        return None
+
+    comments = get_professor_comments(professor.get("id"))
+
+    filename_base = f"{first_name}_{last_name}"
+    combined_data = save_combined_json(professor, comments, f"{filename_base}.json")
+    
+    # Return the combined data structure that includes both professor info and comments
+    return combined_data

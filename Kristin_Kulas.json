@@ -1,0 +1,134 @@
+{
+    "professor_info": {
+        "firstName": "Kristin",
+        "lastName": "Kulas",
+        "department": "Physics",
+        "school": "Santa Clara University",
+        "avgRating": 4.3,
+        "avgDifficulty": 3.6,
+        "numRatings": 20,
+        "wouldTakeAgainPercent": 78.9474
+    },
+    "comments": [
+        {
+            "comment": "One of the best professors at actually lecturing. Explains concepts clearly and concisely, and provides plenty of examples. Some of the problems on the assignments are quite a bit more difficult than shown in class. Midterms were fine if you understood the homework. Relatively tame weekly quizzes. Very generous with partial credit.",
+            "tags": "EXTRA CREDIT--Amazing lectures --Caring",
+            "class": "PHYS31",
+            "date": "2025-06-19 06:00:26 +0000 UTC"
+        },
+        {
+            "comment": "Dr. Kulas is a good professor, aside from giving homework, she gives practice problems on camino as well and the weekly quizzes help as well, but the midterms are tough, but she does explain well and is very helpful.",
+            "tags": "Tough grader--Clear grading criteria--Test heavy",
+            "class": "PHYS31",
+            "date": "2025-06-18 04:47:18 +0000 UTC"
+        },
+        {
+            "comment": "She gives a lot of simple conceptual problems in class. The weekly quizzes help you make sure you understand basic concepts but the midterms are more difficult. She'll do a review before the midterms. Her office hours are helpful. She has extra homework that helps boost your grade so your exams are weighed less than other classes.",
+            "tags": "",
+            "class": "PHYS32",
+            "date": "2024-11-03 01:26:26 +0000 UTC"
+        },
+        {
+            "comment": "Professor Kulas teaches material until the very end and is test heavy.  You can get an A until the end and the final is not what she teaches and your lab grade gets included in your final grade so it gets diluted as well.  Very unfair final exam and does not curve!!!  Nice Professor but just lip service!!! Class final average was 30/50.",
+            "tags": "Tough grader--Test heavy",
+            "class": "PHYS31",
+            "date": "2024-06-19 20:28:17 +0000 UTC"
+        },
+        {
+            "comment": "Kulas was incredible! Loved having her for my first physics course. Lectures are very clear and she provides many examples! Always willing to help and is such a caring person!",
+            "tags": "Amazing lectures --Caring--Accessible outside class",
+            "class": "PHYS31",
+            "date": "2024-03-18 00:52:09 +0000 UTC"
+        },
+        {
+            "comment": "She is such a good professor, and her lectures are the best. The way she teaches concepts makes them easy to grasp. You might fill 50 pages of notes, but write down every example problem she does in class because similar problems will be on homework and tests so it's super helpful for studying.",
+            "tags": "Amazing lectures --Respected",
+            "class": "PHYS31",
+            "date": "2023-09-05 21:01:45 +0000 UTC"
+        },
+        {
+            "comment": "THE BEST PHYSICS PROFESSOR HANDS DOWN. So caring, organized, and thorough. Her notes were AMAZING. She focused on teaching, on explaining practice problems, and on creating a curriculum and structure for her class that prepared students for exams (without students having to figure everything out last minute). Appreciate her SO much. ",
+            "tags": "Amazing lectures --Caring",
+            "class": "PHYS32",
+            "date": "2023-07-28 05:06:12 +0000 UTC"
+        },
+        {
+            "comment": "had very good and easy to understand notes - however, tests are very hard and very few questions. 2 homework assignments every week, and quiz almost every Friday (lowest grade dropped). exams though are the majority of the grade, and good luck, because they can be pretty challenging. not too lenient with partial points and no extra credit. ",
+            "tags": "Tough grader",
+            "class": "PHYS31",
+            "date": "2023-06-11 19:41:34 +0000 UTC"
+        },
+        {
+            "comment": "Her tests are a little hard, if you are a complete beginner to Physics. I suggest not taking her if you come from zero physics background. ",
+            "tags": "Tough grader--Test heavy--Graded by few things",
+            "class": "PHYS31",
+            "date": "2023-04-01 20:00:43 +0000 UTC"
+        },
+        {
+            "comment": "way too much homework that will take anywhere from 4-6 hours of your time if you arent googling the answers and actually trying to complete it yourself",
+            "tags": "Amazing lectures --Lots of homework--Lecture heavy",
+            "class": "PHYS31",
+            "date": "2023-03-16 01:14:39 +0000 UTC"
+        },
+        {
+            "comment": "This class was tough, but Dr.Kulas was extremely nice and always available for help. If you can do the hw and practice midterms, then the tests should be fine. She gives a generous amount of partial credit too on exams which is a plus. Her office hours were always busy though, but that\u2019s due to her having 130+ students",
+            "tags": "Amazing lectures --Caring--Respected",
+            "class": "PHYS31",
+            "date": "2022-03-24 09:39:41 +0000 UTC"
+        },
+        {
+            "comment": "I really enjoyed this class, I thought that Professor Kulas gave lectures that were very easy to understand and prepared us well for tests. She is great at answering questions during and outside of class. Like all other physics courses, your grade is mostly based off of the two midterms and final, but if you do the homework you should do well.",
+            "tags": "Accessible outside class--Amazing lectures--Lecture heavy",
+            "class": "PHYS31",
+            "date": "2021-12-07 05:25:52 +0000 UTC"
+        },
+        {
+            "comment": "Prof. Kulas is great! Clear lectures that are to-the-point and efficient. She breezes through examples so it's worth to rewatch lectures. If you care about this class and want a good grade, put your head down, work, and you will be fine.",
+            "tags": "Gives good feedback--Accessible outside class--Lecture heavy",
+            "class": "PHYS31",
+            "date": "2021-02-23 20:39:07 +0000 UTC"
+        },
+        {
+            "comment": "Study and ask questions and youll be fine",
+            "tags": "Accessible outside class--Clear grading criteria--Caring",
+            "class": "PHYS32",
+            "date": "2020-05-16 16:08:14 +0000 UTC"
+        },
+        {
+            "comment": "Class can be tough, but she's very nice and great at teaching.",
+            "tags": "Test heavy--Lecture heavy--Caring",
+            "class": "PHYS31",
+            "date": "2020-05-08 04:31:17 +0000 UTC"
+        },
+        {
+            "comment": "Lectures are pretty standard and are recorded. Homework is pretty lengthy and challenging but only once per week, quizzes are easier than the homework assignments though. If you can do the homework the tests shouldn't be too bad. If you've taken the math11+ courses already then the first chunk of content is pretty easy.",
+            "tags": "",
+            "class": "PHYS31",
+            "date": "2018-04-02 15:22:38 +0000 UTC"
+        },
+        {
+            "comment": "She teaches you what you need to know, and if you do the homework and practice tests, the tests will not stray far from what you have done. Also, in Phys 31, she recorded the lectures so if you missed for whatever reason, you could easily catch up.",
+            "tags": "",
+            "class": "PHYS31",
+            "date": "2018-03-07 07:34:44 +0000 UTC"
+        },
+        {
+            "comment": "Astronomy with Kulas was an easy Natural Science core credit. You can get by in the class by just reading the lecture slides on Camino, but you might want to show up to class because she can answer any question that goes beyond what we need to know and participation points give you an edge. You must complete the homework well, but tests aren't bad.",
+            "tags": "ACCESSIBLE OUTSIDE CLASS--Clear grading criteria",
+            "class": "PHYS3",
+            "date": "2018-01-01 17:15:21 +0000 UTC"
+        },
+        {
+            "comment": "She's adequate and gets the job done. She tells you the minimum in class, and homework assignments are challenging to an extent. Go to office hours and you will eventually get it. It mainly depends on how you are as a learner. Her office hours are usually busy too, so being an independent learner will probably help you in this class.",
+            "tags": "Tough Grader--Gives good feedback--Respected",
+            "class": "PHYS31",
+            "date": "2017-02-21 20:24:18 +0000 UTC"
+        },
+        {
+            "comment": "She's an ok professor, but I guess it's hard to be super engaging to a lecture hall with 60+ students.  Tests are fairly difficult, and there's only a few questions per test so if you miss one, that's a big deal.",
+            "tags": "",
+            "class": "PHYS31",
+            "date": "2015-03-09 21:43:40 +0000 UTC"
+        }
+    ]
+}
