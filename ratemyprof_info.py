@@ -120,9 +120,6 @@ def save_combined_json(professor, comments, filename):
         },
         "comments": comments
     }
-    with open(filename, "w") as f:
-        json.dump(combined, f, indent=4)
-    print(f"Saved JSON: {filename}")
     return combined
 
 def rateMyProfessor(name):
