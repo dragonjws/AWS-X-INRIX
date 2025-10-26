@@ -13,11 +13,9 @@ ratemyprof_fetcher/
 
 ## Features
 
-- 📚 Course scheduling with AI-powered recommendations
-- ⭐ RateMyProfessor integration for professor ratings
-- 📅 Google Calendar synchronization
-- 🎨 Modern React frontend with shadcn/ui components
-- 🔌 RESTful API for full-stack integration
+- Course scheduling with AI-powered recommendations
+- RateMyProfessor integration for professor ratings
+- Google Calendar synchronization
 
 ## Quick Start - Running the Full Stack
 
@@ -39,7 +37,7 @@ python api.py
 
 The backend API will run on `http://localhost:5001`
 
-### 2. Frontend React App
+### 2. Frontend App
 
 In a new terminal:
 
@@ -55,26 +53,11 @@ npm run dev
 
 The frontend will run on `http://localhost:5173` (or port shown)
 
-## API Endpoints
-
-- `GET /api/health` - Health check
-- `GET /api/quarters` - Get available quarters
-- `POST /api/generate-schedule` - Generate course schedule
-- `POST /api/add-to-calendar` - Add schedule to Google Calendar
-
 ## Requirements
 
-- Python 3.x
+- Python 3
 - Node.js and npm
 - AWS account with Bedrock access
 - Google OAuth credentials for Calendar API
 
-## Technologies
 
-- **Frontend**: React, TypeScript, Vite, Tailwind CSS, shadcn/ui
-- **Backend**: Python, AWS Bedrock (Claude AI), Google Calendar API, RateMyProfessor API
-- **Cloud**: AWS S3, AWS Bedrock
-
-## Welcome to the AWS INRIX Hackathon!
-
-We are open to many ideas and visions you guys have!
