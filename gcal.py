@@ -27,13 +27,11 @@ def get_service():
 
 def get_or_create_calendar(name="Class Schedule", timezone=TIMEZONE):
     service = get_service()
-
     calendar_list = service.calendarList().list().execute()
     for cal in calendar_list.get('items', []):
         if cal['summary'] == name:
             print(f"✅ Found existing calendar: {name}")
             return cal['id']
-
     calendar = {'summary': name, 'timeZone': timezone}
     created_calendar = service.calendars().insert(body=calendar).execute()
     print(f"✅ Created new calendar: {name}")
@@ -58,6 +56,13 @@ def add_events_from_csv(calendar_id, filename):
                 'end': {'dateTime': end_time.isoformat(), 'timeZone': TIMEZONE}
             }
 
+            # Add recurrence if days_of_week and end_sem are provided
+            if row.get('days_of_week') and row.get('end_sem'):
+                days = row['days_of_week'].split(',')
+                until_date = datetime.fromisoformat(row['end_sem']).strftime('%Y%m%dT235959Z')
+                rrule = f"RRULE:FREQ=WEEKLY;BYDAY={','.join(days)};UNTIL={until_date}"
+                event['recurrence'] = [rrule]
+
             created = service.events().insert(calendarId=calendar_id, body=event).execute()
             time.sleep(1)
             event_id = created['id']
@@ -68,12 +73,15 @@ def add_events_from_csv(calendar_id, filename):
                 'location': retrieved.get('location', ''),
                 'description': retrieved.get('description', ''),
                 'start': retrieved['start']['dateTime'],
-                'end': retrieved['end']['dateTime']
+                'end': retrieved['end']['dateTime'],
+                'recurrence': retrieved.get('recurrence', [])
             })
 
+    # Print human-readable schedule
     print("\n📅 Your Class Schedule:\n")
     for evt in schedule:
-        print(f"{evt['summary']} | {evt['start']} - {evt['end']} | {evt['location']}")
+        rec_str = f" (Recurring: {evt['recurrence'][0]})" if evt['recurrence'] else ""
+        print(f"{evt['summary']} | {evt['start']} - {evt['end']} | {evt['location']}{rec_str}")
         if evt['description']:
             print(f"  Description: {evt['description']}")
         print("---------------------------------------------------")
