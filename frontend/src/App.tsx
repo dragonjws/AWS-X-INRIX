@@ -16,8 +16,8 @@ const API_URL = ''; // Proxy through Vite dev server
 export default function App() {
   const [courseNames, setCourseNames] = useState(['', '', '', '']);
   const [quarter, setQuarter] = useState('');
-  const [dayOfWeek, setDayOfWeek] = useState('');
-  const [classTime, setClassTime] = useState('');
+  const [daysOfWeek, setDaysOfWeek] = useState<string[]>([]);
+  const [classTimes, setClassTimes] = useState<string[]>([]);
   const [professorPreferences, setProfessorPreferences] = useState('');
   const [isGenerating, setIsGenerating] = useState(false);
   const [isAddingToCalendar, setIsAddingToCalendar] = useState(false);
@@ -26,8 +26,8 @@ export default function App() {
   const [submittedData, setSubmittedData] = useState<{
     courseNames: string[];
     quarter: string;
-    dayOfWeek: string;
-    classTime: string;
+    daysOfWeek: string[];
+    classTimes: string[];
     professorPreferences: string;
   } | null>(null);
 
@@ -48,13 +48,31 @@ export default function App() {
     setCourseNames(newCourseNames);
   };
 
+  const toggleDayOfWeek = (day: string) => {
+    setDaysOfWeek(prev => 
+      prev.includes(day) 
+        ? prev.filter(d => d !== day)
+        : [...prev, day]
+    );
+  };
+
+  const toggleClassTime = (time: string) => {
+    setClassTimes(prev => 
+      prev.includes(time) 
+        ? prev.filter(t => t !== time)
+        : [...prev, time]
+    );
+  };
+
   const clearForm = () => {
     setCourseNames(['', '', '', '']);
     setQuarter('');
-    setDayOfWeek('');
-    setClassTime('');
+    setDaysOfWeek([]);
+    setClassTimes([]);
     setProfessorPreferences('');
     setSubmittedData(null);
+    setScheduleResults(null);
+    setSelectedScheduleIndex(null);
   };
 
   const handleRedo = () => {
@@ -74,7 +92,7 @@ export default function App() {
   const handleGenerateSchedule = async () => {
     const filledCourses = courseNames.filter(name => name.trim() !== '');
     
-    if (filledCourses.length === 0 || !quarter || !dayOfWeek || !classTime) {
+    if (filledCourses.length === 0 || !quarter || daysOfWeek.length === 0 || classTimes.length === 0) {
       toast.error('⚠️ Please complete all required fields before generating schedule.');
       return;
     }
@@ -91,8 +109,8 @@ export default function App() {
         body: JSON.stringify({
           courses: filledCourses,
           quarter,
-          days_of_week: [dayOfWeek],
-          time_preference: classTime,
+          days_of_week: daysOfWeek,
+          time_preference: classTimes.join(', '),
           teacher_preference: professorPreferences,
         }),
       });
@@ -157,18 +175,18 @@ export default function App() {
         setSubmittedData({
           courseNames: courseNames.filter(name => name.trim() !== ''),
           quarter,
-          dayOfWeek,
-          classTime,
+          daysOfWeek,
+          classTimes,
           professorPreferences,
         });
-
-        // Scroll to the submitted section
-        setTimeout(() => {
-          const element = document.getElementById('submitted-schedule');
-          if (element) {
-            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          }
-        }, 100);
+    
+    // Scroll to the submitted section
+    setTimeout(() => {
+      const element = document.getElementById('submitted-schedule');
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }, 100);
       } else {
         toast.error(`❌ ${data.error || 'Failed to add to calendar'}`);
       }
@@ -315,7 +333,7 @@ export default function App() {
                 </p>
               </div>
 
-              <div className="grid md:grid-cols-3 gap-6 mb-7">
+              <div className="grid md:grid-cols-2 gap-6 mb-7">
                 <div>
                   <Label htmlFor="quarter" className="text-gray-700 mb-3 block">
                     Quarter
@@ -325,48 +343,57 @@ export default function App() {
                       <SelectValue placeholder="Select quarter..." />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="fall">Fall</SelectItem>
-                      <SelectItem value="winter">Winter</SelectItem>
-                      <SelectItem value="spring">Spring</SelectItem>
+                      <SelectItem value="Fall 2025">Fall 2025</SelectItem>
+                      <SelectItem value="Winter 2026">Winter 2026</SelectItem>
+                      <SelectItem value="Spring 2026">Spring 2026</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
 
-                <div>
+                <div className="md:col-span-2">
                   <Label htmlFor="dayOfWeek" className="text-gray-700 mb-3 block">
-                    Day of Week
+                    Days of Week
                   </Label>
-                  <Select value={dayOfWeek} onValueChange={setDayOfWeek}>
-                    <SelectTrigger className="w-full p-4 border-4 border-gray-200 rounded-2xl bg-gray-50 transition-all hover:border-[#B30738] hover:bg-white focus:ring-4 focus:ring-[#B30738]/10">
-                      <SelectValue placeholder="Select day..." />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="monday">Monday</SelectItem>
-                      <SelectItem value="tuesday">Tuesday</SelectItem>
-                      <SelectItem value="wednesday">Wednesday</SelectItem>
-                      <SelectItem value="thursday">Thursday</SelectItem>
-                      <SelectItem value="friday">Friday</SelectItem>
-                      <SelectItem value="mw">Monday/Wednesday</SelectItem>
-                      <SelectItem value="mwf">Monday/Wednesday/Friday</SelectItem>
-                      <SelectItem value="tth">Tuesday/Thursday</SelectItem>
-                    </SelectContent>
-                  </Select>
+                  <div className="grid grid-cols-3 md:grid-cols-5 gap-2">
+                    {['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'].map((day) => (
+                      <Button
+                        key={day}
+                        type="button"
+                        onClick={() => toggleDayOfWeek(day.toLowerCase())}
+                        variant={daysOfWeek.includes(day.toLowerCase()) ? 'default' : 'outline'}
+                        className={`p-3 border-2 rounded-xl transition-all ${
+                          daysOfWeek.includes(day.toLowerCase())
+                            ? 'bg-[#B30738] text-white border-[#B30738]'
+                            : 'border-gray-300 bg-white hover:border-[#B30738]'
+                        }`}
+                      >
+                        {day.slice(0, 3)}
+                      </Button>
+                    ))}
+                  </div>
                 </div>
+              </div>
 
-                <div>
-                  <Label htmlFor="classTime" className="text-gray-700 mb-3 block">
-                    Time of day
-                  </Label>
-                  <Select value={classTime} onValueChange={setClassTime}>
-                    <SelectTrigger className="w-full p-4 border-4 border-gray-200 rounded-2xl bg-gray-50 transition-all hover:border-[#B30738] hover:bg-white focus:ring-4 focus:ring-[#B30738]/10">
-                      <SelectValue placeholder="Select time..." />
-                    </SelectTrigger>
-                    <SelectContent>
-                      <SelectItem value="morning">Morning</SelectItem>
-                      <SelectItem value="afternoon">Afternoon</SelectItem>
-                      <SelectItem value="evening">Evening</SelectItem>
-                    </SelectContent>
-                  </Select>
+              <div className="mb-7">
+                <Label htmlFor="classTime" className="text-gray-700 mb-3 block">
+                  Time Preferences
+                </Label>
+                <div className="grid grid-cols-3 gap-4">
+                  {['Morning', 'Afternoon', 'Evening'].map((time) => (
+                    <Button
+                      key={time}
+                      type="button"
+                      onClick={() => toggleClassTime(time.toLowerCase())}
+                      variant={classTimes.includes(time.toLowerCase()) ? 'default' : 'outline'}
+                      className={`p-4 border-4 rounded-2xl transition-all text-center ${
+                        classTimes.includes(time.toLowerCase())
+                          ? 'bg-[#B30738] text-white border-[#B30738] hover:shadow-lg'
+                          : 'border-gray-200 bg-white hover:border-[#B30738] hover:bg-red-50'
+                      }`}
+                    >
+                      {time}
+                    </Button>
+                  ))}
                 </div>
               </div>
             </div>
@@ -473,22 +500,38 @@ export default function App() {
 
                 {scheduleResults.recommendations && scheduleResults.recommendations.length > 0 && (
                   <div className="space-y-4 mb-6">
-                    <p className="text-center text-gray-600 mb-4">Select a schedule to add to your calendar:</p>
+                    <div className="text-center mb-4">
+                      <p className="text-gray-600 mb-2">Select a schedule to add to your calendar:</p>
+                      {selectedScheduleIndex !== null && (
+                        <p className="text-sm text-[#B30738] font-semibold animate-pulse">
+                          ✓ Schedule {selectedScheduleIndex + 1} selected
+                        </p>
+                      )}
+                    </div>
                     {scheduleResults.recommendations.map((scheduleOption: any, index: number) => (
                       <div
                         key={index}
                         onClick={() => setSelectedScheduleIndex(index)}
-                        className={`border-4 rounded-2xl p-6 cursor-pointer transition-all ${
+                        className={`border-4 rounded-2xl p-6 cursor-pointer transition-all duration-300 transform ${
                           selectedScheduleIndex === index
-                            ? 'border-[#B30738] bg-red-50'
-                            : 'border-gray-200 bg-gray-50 hover:border-gray-300'
+                            ? 'border-[#B30738] border-4 bg-gradient-to-br from-red-50 to-red-100 shadow-2xl shadow-[#B30738]/30 scale-[1.02] ring-4 ring-[#B30738]/20'
+                            : 'border-gray-200 bg-gray-50 hover:border-gray-300 hover:scale-[1.01]'
                         }`}
                       >
                         {/* Schedule number header */}
                         <div className="flex items-center justify-between mb-4">
-                          <h3 className="font-bold text-xl">Schedule Option {index + 1}</h3>
+                          <div className="flex items-center gap-3">
+                            <div className={`w-8 h-8 rounded-full flex items-center justify-center transition-all ${
+                              selectedScheduleIndex === index
+                                ? 'bg-[#B30738] text-white'
+                                : 'bg-gray-200 text-gray-500'
+                            }`}>
+                              {selectedScheduleIndex === index ? '✓' : index + 1}
+                            </div>
+                            <h3 className="font-bold text-xl">Schedule Option {index + 1}</h3>
+                          </div>
                           {selectedScheduleIndex === index && (
-                            <Badge className="bg-[#B30738] text-white">Selected</Badge>
+                            <Badge className="bg-[#B30738] text-white animate-pulse shadow-lg">✓ Selected</Badge>
                           )}
                         </div>
 
@@ -525,11 +568,36 @@ export default function App() {
                         {/* Schedule details */}
                         <div className="space-y-3">
                           {scheduleOption.schedule && scheduleOption.schedule.map((course: any, courseIndex: number) => (
-                            <div key={courseIndex} className="border-l-4 border-[#B30738] pl-4 py-2 bg-white rounded-r-lg">
-                              <h4 className="font-bold">{course.summary}</h4>
-                              <p className="text-gray-600 text-sm">Professor: {course.description}</p>
-                              <p className="text-gray-500 text-xs">📍 {course.location || 'TBA'}</p>
-                              <p className="text-gray-500 text-xs">🕐 {course.start ? new Date(course.start).toLocaleString() : 'TBA'}</p>
+                            <div 
+                              key={courseIndex} 
+                              className={`border-l-4 pl-4 py-3 bg-white rounded-r-lg transition-all ${
+                                selectedScheduleIndex === index 
+                                  ? 'border-[#B30738] shadow-lg border-4' 
+                                  : 'border-gray-300'
+                              }`}
+                            >
+                              <h4 className={`font-bold text-lg ${
+                                selectedScheduleIndex === index 
+                                  ? 'text-[#B30738]' 
+                                  : 'text-gray-900'
+                              }`}>{course.summary}</h4>
+                              <p className="text-gray-600 text-sm font-medium">👨‍🏫 {course.description}</p>
+                              <div className="flex flex-wrap gap-3 mt-2 text-xs">
+                                <span className={`px-2 py-1 rounded ${
+                                  selectedScheduleIndex === index 
+                                    ? 'text-gray-700 bg-red-50' 
+                                    : 'text-gray-500 bg-gray-50'
+                                }`}>📍 {course.location || 'TBA'}</span>
+                                {course.days_of_week && (
+                                  <span className={`px-2 py-1 rounded ${
+                                    selectedScheduleIndex === index 
+                                      ? 'text-[#B30738] bg-red-50' 
+                                      : 'text-blue-600 bg-blue-50'
+                                  }`}>
+                                    📅 {course.days_of_week.join(', ')}
+                                  </span>
+                                )}
+                              </div>
                             </div>
                           ))}
                         </div>
