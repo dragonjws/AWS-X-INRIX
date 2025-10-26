@@ -1,0 +1,7 @@
+{
+  "python.defaultInterpreterPath": "/opt/anaconda3/bin/python",
+  "files.associations": {
+    "*.py": "python"
+  }
+}
+
