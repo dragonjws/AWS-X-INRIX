@@ -2,3 +2,5 @@ venv/
 .DS_Store
 # Uncomment the next line
 .env
+credentials.json
+token.json
